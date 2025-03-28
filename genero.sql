@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS genero (
+    id_genero INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    descricao TEXT,
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP);

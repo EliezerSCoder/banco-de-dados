@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS editora (
+    id_editora INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    endereco VARCHAR(200),
+    telefone VARCHAR(20),
+    email VARCHAR(100),
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
